@@ -1,0 +1,23 @@
+[project]
+name = "pii-data-leak-scanner"
+version = "0.1.0"
+description = "Scans files/directories for accidentally leaked PII (emails, SSNs, checksum-validated credit cards and IBANs, phone numbers) before they're shared externally."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "T-X" }]
+dependencies = []
+
+[project.scripts]
+pii-data-leak-scanner = "pii_data_leak_scanner:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["pii_data_leak_scanner"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

@@ -1,0 +1,8 @@
+Sprint planning notes
+======================
+
+- Migrate the reporting pipeline to the new queue by end of quarter.
+- Follow up with the platform team about the shared staging environment.
+- No customer data should ever be pasted into this file — use the ticket
+  system's attachment feature instead, which handles retention properly.
+- Revisit the on-call rotation schedule next planning cycle.
